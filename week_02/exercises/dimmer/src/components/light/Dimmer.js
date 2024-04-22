@@ -6,7 +6,7 @@ export default function Dimmer({ dimPercentage, setDimPercentage}) {
     }
   return (
     <div className="dimmer">
-      <input type="range" min="0" max="100" step="1" value={dimPercentage} onChange={handleChangRange}/>
+      <input id="dimmer" type="range" min="0" max="100" step="1" value={dimPercentage} onChange={handleChangRange}/>
       <label htmlFor="dimmer">Dimmer</label>
     </div>
   );
