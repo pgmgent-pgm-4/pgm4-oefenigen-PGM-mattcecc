@@ -1,0 +1,28 @@
+.h1 {
+  color: blue;
+  display: flex;
+    justify-content: center;
+}
+
+.card {
+  border-radius: 5%;
+  filter: drop-shadow(0 0 0.5rem #878787);  
+  padding: 10px;
+  margin: 10px;
+  width: 15rem;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li {
+  list-style-type: none;
+}
+
+.developer {
+  background-color: lightblue;
+}
+.member {
+  background-color: gold;
+}

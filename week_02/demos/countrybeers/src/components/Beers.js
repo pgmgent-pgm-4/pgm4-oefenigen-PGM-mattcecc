@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Beer from "./Beer";
 import SelectCountry from "./SelectCountry";
+import style from "./beers.module.css";
 
 export default function Beers() {
   const [country, setCountry] = useState("italy");
@@ -49,7 +50,7 @@ export default function Beers() {
             setCountry={setCountry}
             country={country}
         />
-        <h1>{country}</h1>
+        <h1 className={style.error}>{country}</h1>
         {isloading && <p>... Loading</p>}
         {!isloading && (
             <>
