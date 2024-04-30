@@ -5,4 +5,4 @@ import NotFound from "./NotFound";
 import Blog from "./Blog";
 import BlogPost from "./BlogPost";
 
-export { Home, About, Contact, NotFound, Blog, BlogPost};
+export { Home, About, Contact, NotFound, Blog, BlogPost };
